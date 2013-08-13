@@ -28,7 +28,8 @@ gem 'turbolinks'
 
 group :test, :development do 
 	gem 'factory_girl_rails'
-
+	gem 'capybara'
+	gem 'pry'
 end
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
