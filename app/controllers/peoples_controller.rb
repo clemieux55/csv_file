@@ -5,12 +5,8 @@ class PeoplesController < ApplicationController
 		@persons = @people.order(:sort_option)
 	end
 
-	def gender
-		@gender = Person.order("gender")
-	end
-
-	def last_name
-		@last_name = Person.order("last_name")
+	def show
+		@people = Person.order(:sort_option)
 	end
 
 end
